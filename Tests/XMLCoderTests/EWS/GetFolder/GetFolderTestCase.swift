@@ -35,18 +35,8 @@ class GetFolderTestCase: XMLFileTestCase {
             let data = try Data(contentsOf: self.fileURL)
             let keyPath = "s:Envelope.s:Body.m:GetFolderResponse.m:ResponseMessages.m:GetFolderResponseMessage.m:Folders.t:Folder"
             let folders = try self.decoder.decode([GetFolder.Folder].self, from: data, keyPath: keyPath)
-            let folder: GetFolder.Folder! = folders.first
+            let folder: GetFolder.Folder! = folders[1]
             XCTAssertNotNil(folder, "Список папок пуст.")
-            self.verify(folder)
-        }
-        XCTAssertNoThrow(try testBlock())
-    }
-
-    func testGetFolder() {
-        let testBlock = {
-            let data = try Data(contentsOf: self.fileURL)
-            let keyPath = "s:Envelope.s:Body.m:GetFolderResponse.m:ResponseMessages.m:GetFolderResponseMessage.m:Folders.t:Folder"
-            let folder = try self.decoder.decode(GetFolder.Folder.self, from: data, keyPath: keyPath)
             self.verify(folder)
         }
         XCTAssertNoThrow(try testBlock())

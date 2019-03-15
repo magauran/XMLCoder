@@ -99,6 +99,17 @@
 		D1E0C85321D8E65E0042A261 /* ErrorContextTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0C85121D8E6540042A261 /* ErrorContextTest.swift */; };
 		D1E0C85521D91EBF0042A261 /* Metatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0C85421D91EBF0042A261 /* Metatypes.swift */; };
 		D1FC040521C7EF8200065B43 /* RJISample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FC040421C7EF8200065B43 /* RJISample.swift */; };
+		EE16E1E7223BBCA800F7C1D0 /* GetItemTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1E6223BBCA800F7C1D0 /* GetItemTestCase.swift */; };
+		EE16E1EB223BC28D00F7C1D0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1E9223BC03100F7C1D0 /* Message.swift */; };
+		EE16E1EC223BC2BB00F7C1D0 /* GetItemsResponse.xml in Resources */ = {isa = PBXBuildFile; fileRef = EE16E1E8223BBCD700F7C1D0 /* GetItemsResponse.xml */; };
+		EE16E1EF223BE05C00F7C1D0 /* RecipientAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1EE223BE05C00F7C1D0 /* RecipientAddress.swift */; };
+		EE16E1F1223BE07F00F7C1D0 /* Mailbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1F0223BE07F00F7C1D0 /* Mailbox.swift */; };
+		EE16E214223BE93800F7C1D0 /* FileAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E213223BE93800F7C1D0 /* FileAttachment.swift */; };
+		EE16E216223BEA0A00F7C1D0 /* Attachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E215223BEA0A00F7C1D0 /* Attachments.swift */; };
+		EE16E218223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E217223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift */; };
+		EE16E21A223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml in Resources */ = {isa = PBXBuildFile; fileRef = EE16E219223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml */; };
+		EE16E21D223BF4F100F7C1D0 /* GetItemResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E21C223BF4F100F7C1D0 /* GetItemResponseMessage.swift */; };
+		EE16E221223C021600F7C1D0 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E220223C021600F7C1D0 /* Body.swift */; };
 		OBJ_48 /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DecodingErrorExtension.swift */; };
 		OBJ_49 /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* XMLDecoder.swift */; };
 		OBJ_50 /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XMLDecodingStorage.swift */; };
@@ -221,6 +232,17 @@
 		D1E0C85121D8E6540042A261 /* ErrorContextTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorContextTest.swift; sourceTree = "<group>"; };
 		D1E0C85421D91EBF0042A261 /* Metatypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatypes.swift; sourceTree = "<group>"; };
 		D1FC040421C7EF8200065B43 /* RJISample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJISample.swift; sourceTree = "<group>"; };
+		EE16E1E6223BBCA800F7C1D0 /* GetItemTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemTestCase.swift; sourceTree = "<group>"; };
+		EE16E1E8223BBCD700F7C1D0 /* GetItemsResponse.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GetItemsResponse.xml; sourceTree = "<group>"; };
+		EE16E1E9223BC03100F7C1D0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EE16E1EE223BE05C00F7C1D0 /* RecipientAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientAddress.swift; sourceTree = "<group>"; };
+		EE16E1F0223BE07F00F7C1D0 /* Mailbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailbox.swift; sourceTree = "<group>"; };
+		EE16E213223BE93800F7C1D0 /* FileAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAttachment.swift; sourceTree = "<group>"; };
+		EE16E215223BEA0A00F7C1D0 /* Attachments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachments.swift; sourceTree = "<group>"; };
+		EE16E217223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemResponseMessageTestCase.swift; sourceTree = "<group>"; };
+		EE16E219223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GeetItemResponseMessages.xml; sourceTree = "<group>"; };
+		EE16E21C223BF4F100F7C1D0 /* GetItemResponseMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemResponseMessage.swift; sourceTree = "<group>"; };
+		EE16E220223C021600F7C1D0 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 		OBJ_10 /* DecodingErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingErrorExtension.swift; sourceTree = "<group>"; };
 		OBJ_11 /* XMLDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDecoder.swift; sourceTree = "<group>"; };
 		OBJ_12 /* XMLDecodingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDecodingStorage.swift; sourceTree = "<group>"; };
@@ -269,6 +291,7 @@
 		8AB324D922332AF600450253 /* EWS */ = {
 			isa = PBXGroup;
 			children = (
+				EE16E1E5223BBAB000F7C1D0 /* GetItem */,
 				8AB324DA22332AF600450253 /* FindFolder */,
 				8AB324DE22332AF600450253 /* GetFolder */,
 			);
@@ -392,6 +415,56 @@
 				D162674121F9B2850056D1D8 /* OptionalTests.swift */,
 			);
 			path = Minimal;
+			sourceTree = "<group>";
+		};
+		EE16E1E5223BBAB000F7C1D0 /* GetItem */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E21B223BF4A500F7C1D0 /* GetItemResponseMessage */,
+				EE16E212223BE7FC00F7C1D0 /* Attachments */,
+				EE16E1ED223BE03800F7C1D0 /* RecipientAddress */,
+				EE16E21F223C020600F7C1D0 /* Body */,
+				EE16E217223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift */,
+				EE16E1E6223BBCA800F7C1D0 /* GetItemTestCase.swift */,
+				EE16E1E9223BC03100F7C1D0 /* Message.swift */,
+				EE16E1E8223BBCD700F7C1D0 /* GetItemsResponse.xml */,
+				EE16E219223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml */,
+			);
+			path = GetItem;
+			sourceTree = "<group>";
+		};
+		EE16E1ED223BE03800F7C1D0 /* RecipientAddress */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E1EE223BE05C00F7C1D0 /* RecipientAddress.swift */,
+				EE16E1F0223BE07F00F7C1D0 /* Mailbox.swift */,
+			);
+			path = RecipientAddress;
+			sourceTree = "<group>";
+		};
+		EE16E212223BE7FC00F7C1D0 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E213223BE93800F7C1D0 /* FileAttachment.swift */,
+				EE16E215223BEA0A00F7C1D0 /* Attachments.swift */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		EE16E21B223BF4A500F7C1D0 /* GetItemResponseMessage */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E21C223BF4F100F7C1D0 /* GetItemResponseMessage.swift */,
+			);
+			path = GetItemResponseMessage;
+			sourceTree = "<group>";
+		};
+		EE16E21F223C020600F7C1D0 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E220223C021600F7C1D0 /* Body.swift */,
+			);
+			path = Body;
 			sourceTree = "<group>";
 		};
 		OBJ_15 /* Encoder */ = {
@@ -603,6 +676,8 @@
 			files = (
 				8AB324F222332EDE00450253 /* FindFolderResponse.xml in Resources */,
 				8AB324F122332ED700450253 /* GetFolderResponse.xml in Resources */,
+				EE16E21A223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml in Resources */,
+				EE16E1EC223BC2BB00F7C1D0 /* GetItemsResponse.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +775,7 @@
 				BF9457ED21CBB6BC005ACFDE /* BoolTests.swift in Sources */,
 				B3B6902E220A71DF0084D407 /* AttributedIntrinsicTest.swift in Sources */,
 				D1FC040521C7EF8200065B43 /* RJISample.swift in Sources */,
+				EE16E1F1223BE07F00F7C1D0 /* Mailbox.swift in Sources */,
 				BF63EF0A21CD7C1A001D38C5 /* URLTests.swift in Sources */,
 				BF9457CE21CBB516005ACFDE /* StringBoxTests.swift in Sources */,
 				D1CFC8242226B13F00B03222 /* NamespaceTest.swift in Sources */,
@@ -713,6 +789,8 @@
 				BF63EF1E21CEC99B001D38C5 /* BenchmarkTests.swift in Sources */,
 				BF9457CF21CBB516005ACFDE /* IntBoxTests.swift in Sources */,
 				8A9DDF1C2238F2EE00C6C0DA /* KeyPathTests.swift in Sources */,
+				EE16E21D223BF4F100F7C1D0 /* GetItemResponseMessage.swift in Sources */,
+				EE16E221223C021600F7C1D0 /* Body.swift in Sources */,
 				BF9457E021CBB68A005ACFDE /* DataBoxTests.swift in Sources */,
 				D162674321F9B2AF0056D1D8 /* OptionalTests.swift in Sources */,
 				BF9457F521CBB6BC005ACFDE /* DecimalTests.swift in Sources */,
@@ -721,15 +799,21 @@
 				OBJ_85 /* NodeEncodingStrategyTests.swift in Sources */,
 				OBJ_86 /* NoteTest.swift in Sources */,
 				BF63EF0C21CD7F28001D38C5 /* EmptyTests.swift in Sources */,
+				EE16E1E7223BBCA800F7C1D0 /* GetItemTestCase.swift in Sources */,
 				B34B3C08220381AC00BCBA30 /* String+ExtensionsTests.swift in Sources */,
+				EE16E218223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift in Sources */,
+				EE16E214223BE93800F7C1D0 /* FileAttachment.swift in Sources */,
 				8AB324E222332AF600450253 /* FindFolder.swift in Sources */,
+				EE16E216223BEA0A00F7C1D0 /* Attachments.swift in Sources */,
 				B3BE1D612202C1F600259831 /* DynamicNodeEncodingTest.swift in Sources */,
+				EE16E1EB223BC28D00F7C1D0 /* Message.swift in Sources */,
 				BF9457F721CBB6BC005ACFDE /* DataTests.swift in Sources */,
 				BF9457EE21CBB6BC005ACFDE /* IntTests.swift in Sources */,
 				BF8171F221D3D03E00901EB0 /* SharedBoxTests.swift in Sources */,
 				OBJ_87 /* PlantCatalog.swift in Sources */,
 				BF9457C921CBB516005ACFDE /* KeyedBoxTests.swift in Sources */,
 				8AB324EA22332B3000450253 /* XMLFileTestCase.swift in Sources */,
+				EE16E1EF223BE05C00F7C1D0 /* RecipientAddress.swift in Sources */,
 				OBJ_88 /* PlantTest.swift in Sources */,
 				BF63EF0821CD7AF8001D38C5 /* URLBoxTests.swift in Sources */,
 				BF9457DD21CBB62C005ACFDE /* DateBoxTests.swift in Sources */,
