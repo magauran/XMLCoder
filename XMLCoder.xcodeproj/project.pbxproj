@@ -21,6 +21,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		8A9DDF192238ED5F00C6C0DA /* KeyPathWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DDF182238ED5F00C6C0DA /* KeyPathWrapper.swift */; };
+		8A9DDF1C2238F2EE00C6C0DA /* KeyPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DDF1A2238F24E00C6C0DA /* KeyPathTests.swift */; };
+		8AB324E222332AF600450253 /* FindFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB324DB22332AF600450253 /* FindFolder.swift */; };
+		8AB324E322332AF600450253 /* FindFolderTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB324DC22332AF600450253 /* FindFolderTestCase.swift */; };
+		8AB324E422332AF600450253 /* GetFolderTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB324DF22332AF600450253 /* GetFolderTestCase.swift */; };
+		8AB324E522332AF600450253 /* GetFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB324E022332AF600450253 /* GetFolder.swift */; };
+		8AB324EA22332B3000450253 /* XMLFileTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB324E822332B3000450253 /* XMLFileTestCase.swift */; };
+		8AB324F122332ED700450253 /* GetFolderResponse.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8AB324E122332AF600450253 /* GetFolderResponse.xml */; };
+		8AB324F222332EDE00450253 /* FindFolderResponse.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8AB324EC22332CD800450253 /* FindFolderResponse.xml */; };
 		A61DCCD821DF9CA200C0A19D /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DCCD621DF8DB300C0A19D /* ClassTests.swift */; };
 		A61FE03921E4D60B0015D993 /* UnkeyedIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FE03721E4D4F10015D993 /* UnkeyedIntTests.swift */; };
 		A61FE03C21E4EAB10015D993 /* KeyedIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61FE03A21E4EA8B0015D993 /* KeyedIntTests.swift */; };
@@ -90,6 +99,17 @@
 		D1E0C85321D8E65E0042A261 /* ErrorContextTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0C85121D8E6540042A261 /* ErrorContextTest.swift */; };
 		D1E0C85521D91EBF0042A261 /* Metatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0C85421D91EBF0042A261 /* Metatypes.swift */; };
 		D1FC040521C7EF8200065B43 /* RJISample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FC040421C7EF8200065B43 /* RJISample.swift */; };
+		EE16E1E7223BBCA800F7C1D0 /* GetItemTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1E6223BBCA800F7C1D0 /* GetItemTestCase.swift */; };
+		EE16E1EB223BC28D00F7C1D0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1E9223BC03100F7C1D0 /* Message.swift */; };
+		EE16E1EC223BC2BB00F7C1D0 /* GetItemsResponse.xml in Resources */ = {isa = PBXBuildFile; fileRef = EE16E1E8223BBCD700F7C1D0 /* GetItemsResponse.xml */; };
+		EE16E1EF223BE05C00F7C1D0 /* RecipientAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1EE223BE05C00F7C1D0 /* RecipientAddress.swift */; };
+		EE16E1F1223BE07F00F7C1D0 /* Mailbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E1F0223BE07F00F7C1D0 /* Mailbox.swift */; };
+		EE16E214223BE93800F7C1D0 /* FileAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E213223BE93800F7C1D0 /* FileAttachment.swift */; };
+		EE16E216223BEA0A00F7C1D0 /* Attachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E215223BEA0A00F7C1D0 /* Attachments.swift */; };
+		EE16E218223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E217223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift */; };
+		EE16E21A223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml in Resources */ = {isa = PBXBuildFile; fileRef = EE16E219223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml */; };
+		EE16E21D223BF4F100F7C1D0 /* GetItemResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E21C223BF4F100F7C1D0 /* GetItemResponseMessage.swift */; };
+		EE16E221223C021600F7C1D0 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16E220223C021600F7C1D0 /* Body.swift */; };
 		OBJ_48 /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DecodingErrorExtension.swift */; };
 		OBJ_49 /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* XMLDecoder.swift */; };
 		OBJ_50 /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* XMLDecodingStorage.swift */; };
@@ -132,6 +152,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A9DDF182238ED5F00C6C0DA /* KeyPathWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathWrapper.swift; sourceTree = "<group>"; };
+		8A9DDF1A2238F24E00C6C0DA /* KeyPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathTests.swift; sourceTree = "<group>"; };
+		8AB324DB22332AF600450253 /* FindFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFolder.swift; sourceTree = "<group>"; };
+		8AB324DC22332AF600450253 /* FindFolderTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFolderTestCase.swift; sourceTree = "<group>"; };
+		8AB324DF22332AF600450253 /* GetFolderTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFolderTestCase.swift; sourceTree = "<group>"; };
+		8AB324E022332AF600450253 /* GetFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFolder.swift; sourceTree = "<group>"; };
+		8AB324E122332AF600450253 /* GetFolderResponse.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GetFolderResponse.xml; sourceTree = "<group>"; };
+		8AB324E822332B3000450253 /* XMLFileTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLFileTestCase.swift; sourceTree = "<group>"; };
+		8AB324EC22332CD800450253 /* FindFolderResponse.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FindFolderResponse.xml; sourceTree = "<group>"; };
 		A61DCCD621DF8DB300C0A19D /* ClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTests.swift; sourceTree = "<group>"; };
 		A61FE03721E4D4F10015D993 /* UnkeyedIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnkeyedIntTests.swift; sourceTree = "<group>"; };
 		A61FE03A21E4EA8B0015D993 /* KeyedIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedIntTests.swift; sourceTree = "<group>"; };
@@ -203,6 +232,17 @@
 		D1E0C85121D8E6540042A261 /* ErrorContextTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorContextTest.swift; sourceTree = "<group>"; };
 		D1E0C85421D91EBF0042A261 /* Metatypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metatypes.swift; sourceTree = "<group>"; };
 		D1FC040421C7EF8200065B43 /* RJISample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJISample.swift; sourceTree = "<group>"; };
+		EE16E1E6223BBCA800F7C1D0 /* GetItemTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemTestCase.swift; sourceTree = "<group>"; };
+		EE16E1E8223BBCD700F7C1D0 /* GetItemsResponse.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GetItemsResponse.xml; sourceTree = "<group>"; };
+		EE16E1E9223BC03100F7C1D0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EE16E1EE223BE05C00F7C1D0 /* RecipientAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipientAddress.swift; sourceTree = "<group>"; };
+		EE16E1F0223BE07F00F7C1D0 /* Mailbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mailbox.swift; sourceTree = "<group>"; };
+		EE16E213223BE93800F7C1D0 /* FileAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAttachment.swift; sourceTree = "<group>"; };
+		EE16E215223BEA0A00F7C1D0 /* Attachments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachments.swift; sourceTree = "<group>"; };
+		EE16E217223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemResponseMessageTestCase.swift; sourceTree = "<group>"; };
+		EE16E219223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GeetItemResponseMessages.xml; sourceTree = "<group>"; };
+		EE16E21C223BF4F100F7C1D0 /* GetItemResponseMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetItemResponseMessage.swift; sourceTree = "<group>"; };
+		EE16E220223C021600F7C1D0 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
 		OBJ_10 /* DecodingErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingErrorExtension.swift; sourceTree = "<group>"; };
 		OBJ_11 /* XMLDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDecoder.swift; sourceTree = "<group>"; };
 		OBJ_12 /* XMLDecodingStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDecodingStorage.swift; sourceTree = "<group>"; };
@@ -248,6 +288,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AB324D922332AF600450253 /* EWS */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E1E5223BBAB000F7C1D0 /* GetItem */,
+				8AB324DA22332AF600450253 /* FindFolder */,
+				8AB324DE22332AF600450253 /* GetFolder */,
+			);
+			path = EWS;
+			sourceTree = "<group>";
+		};
+		8AB324DA22332AF600450253 /* FindFolder */ = {
+			isa = PBXGroup;
+			children = (
+				8AB324DB22332AF600450253 /* FindFolder.swift */,
+				8AB324DC22332AF600450253 /* FindFolderTestCase.swift */,
+				8AB324EC22332CD800450253 /* FindFolderResponse.xml */,
+			);
+			path = FindFolder;
+			sourceTree = "<group>";
+		};
+		8AB324DE22332AF600450253 /* GetFolder */ = {
+			isa = PBXGroup;
+			children = (
+				8AB324DF22332AF600450253 /* GetFolderTestCase.swift */,
+				8AB324E022332AF600450253 /* GetFolder.swift */,
+				8AB324E122332AF600450253 /* GetFolderResponse.xml */,
+			);
+			path = GetFolder;
+			sourceTree = "<group>";
+		};
+		8AB324E622332B3000450253 /* GeneralTestCases */ = {
+			isa = PBXGroup;
+			children = (
+				8AB324E822332B3000450253 /* XMLFileTestCase.swift */,
+			);
+			path = GeneralTestCases;
+			sourceTree = "<group>";
+		};
 		BF63EEFE21CCDEC1001D38C5 /* Auxiliary */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +417,56 @@
 			path = Minimal;
 			sourceTree = "<group>";
 		};
+		EE16E1E5223BBAB000F7C1D0 /* GetItem */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E21B223BF4A500F7C1D0 /* GetItemResponseMessage */,
+				EE16E212223BE7FC00F7C1D0 /* Attachments */,
+				EE16E1ED223BE03800F7C1D0 /* RecipientAddress */,
+				EE16E21F223C020600F7C1D0 /* Body */,
+				EE16E217223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift */,
+				EE16E1E6223BBCA800F7C1D0 /* GetItemTestCase.swift */,
+				EE16E1E9223BC03100F7C1D0 /* Message.swift */,
+				EE16E1E8223BBCD700F7C1D0 /* GetItemsResponse.xml */,
+				EE16E219223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml */,
+			);
+			path = GetItem;
+			sourceTree = "<group>";
+		};
+		EE16E1ED223BE03800F7C1D0 /* RecipientAddress */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E1EE223BE05C00F7C1D0 /* RecipientAddress.swift */,
+				EE16E1F0223BE07F00F7C1D0 /* Mailbox.swift */,
+			);
+			path = RecipientAddress;
+			sourceTree = "<group>";
+		};
+		EE16E212223BE7FC00F7C1D0 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E213223BE93800F7C1D0 /* FileAttachment.swift */,
+				EE16E215223BEA0A00F7C1D0 /* Attachments.swift */,
+			);
+			path = Attachments;
+			sourceTree = "<group>";
+		};
+		EE16E21B223BF4A500F7C1D0 /* GetItemResponseMessage */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E21C223BF4F100F7C1D0 /* GetItemResponseMessage.swift */,
+			);
+			path = GetItemResponseMessage;
+			sourceTree = "<group>";
+		};
+		EE16E21F223C020600F7C1D0 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				EE16E220223C021600F7C1D0 /* Body.swift */,
+			);
+			path = Body;
+			sourceTree = "<group>";
+		};
 		OBJ_15 /* Encoder */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +499,8 @@
 				BF63EEFE21CCDEC1001D38C5 /* Auxiliary */,
 				OBJ_28 /* BooksTest.swift */,
 				OBJ_29 /* BreakfastTest.swift */,
+				8AB324E622332B3000450253 /* GeneralTestCases */,
+				8AB324D922332AF600450253 /* EWS */,
 				OBJ_30 /* CDCatalog.swift */,
 				OBJ_31 /* CDTest.swift */,
 				D1E0C85121D8E6540042A261 /* ErrorContextTest.swift */,
@@ -387,6 +517,7 @@
 				A61DCCD621DF8DB300C0A19D /* ClassTests.swift */,
 				D14D8A8521F1D6B300B0D31A /* SingleChildTests.swift */,
 				D1CFC8222226AFB400B03222 /* NamespaceTest.swift */,
+				8A9DDF1A2238F24E00C6C0DA /* KeyPathTests.swift */,
 			);
 			name = XMLCoderTests;
 			path = Tests/XMLCoderTests;
@@ -445,6 +576,7 @@
 				OBJ_12 /* XMLDecodingStorage.swift */,
 				OBJ_13 /* XMLKeyedDecodingContainer.swift */,
 				OBJ_14 /* XMLUnkeyedDecodingContainer.swift */,
+				8A9DDF182238ED5F00C6C0DA /* KeyPathWrapper.swift */,
 			);
 			path = Decoder;
 			sourceTree = "<group>";
@@ -489,6 +621,7 @@
 			buildPhases = (
 				OBJ_78 /* Sources */,
 				OBJ_91 /* Frameworks */,
+				8AB324F022332ECC00450253 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -535,6 +668,20 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB324F022332ECC00450253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB324F222332EDE00450253 /* FindFolderResponse.xml in Resources */,
+				8AB324F122332ED700450253 /* GetFolderResponse.xml in Resources */,
+				EE16E21A223BF3CE00F7C1D0 /* GeetItemResponseMessages.xml in Resources */,
+				EE16E1EC223BC2BB00F7C1D0 /* GetItemsResponse.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		D1543A8921CEB96E0039D8EC /* ShellScript */ = {
@@ -597,6 +744,7 @@
 				BF9457AA21CBB498005ACFDE /* UnkeyedBox.swift in Sources */,
 				BF9457AF21CBB498005ACFDE /* StringBox.swift in Sources */,
 				OBJ_58 /* XMLUnkeyedEncodingContainer.swift in Sources */,
+				8A9DDF192238ED5F00C6C0DA /* KeyPathWrapper.swift in Sources */,
 				BF9457A821CBB498005ACFDE /* NullBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +761,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				8AB324E322332AF600450253 /* FindFolderTestCase.swift in Sources */,
 				BF9457CB21CBB516005ACFDE /* DecimalBoxTests.swift in Sources */,
 				BF9457F221CBB6BC005ACFDE /* UnkeyedTests.swift in Sources */,
 				A61FE03C21E4EAB10015D993 /* KeyedIntTests.swift in Sources */,
@@ -626,6 +775,7 @@
 				BF9457ED21CBB6BC005ACFDE /* BoolTests.swift in Sources */,
 				B3B6902E220A71DF0084D407 /* AttributedIntrinsicTest.swift in Sources */,
 				D1FC040521C7EF8200065B43 /* RJISample.swift in Sources */,
+				EE16E1F1223BE07F00F7C1D0 /* Mailbox.swift in Sources */,
 				BF63EF0A21CD7C1A001D38C5 /* URLTests.swift in Sources */,
 				BF9457CE21CBB516005ACFDE /* StringBoxTests.swift in Sources */,
 				D1CFC8242226B13F00B03222 /* NamespaceTest.swift in Sources */,
@@ -634,9 +784,13 @@
 				OBJ_81 /* BreakfastTest.swift in Sources */,
 				OBJ_82 /* CDCatalog.swift in Sources */,
 				BF63EF0021CCDED2001D38C5 /* XMLStackParserTests.swift in Sources */,
+				8AB324E522332AF600450253 /* GetFolder.swift in Sources */,
 				BF9457CC21CBB516005ACFDE /* NullBoxTests.swift in Sources */,
 				BF63EF1E21CEC99B001D38C5 /* BenchmarkTests.swift in Sources */,
 				BF9457CF21CBB516005ACFDE /* IntBoxTests.swift in Sources */,
+				8A9DDF1C2238F2EE00C6C0DA /* KeyPathTests.swift in Sources */,
+				EE16E21D223BF4F100F7C1D0 /* GetItemResponseMessage.swift in Sources */,
+				EE16E221223C021600F7C1D0 /* Body.swift in Sources */,
 				BF9457E021CBB68A005ACFDE /* DataBoxTests.swift in Sources */,
 				D162674321F9B2AF0056D1D8 /* OptionalTests.swift in Sources */,
 				BF9457F521CBB6BC005ACFDE /* DecimalTests.swift in Sources */,
@@ -645,13 +799,21 @@
 				OBJ_85 /* NodeEncodingStrategyTests.swift in Sources */,
 				OBJ_86 /* NoteTest.swift in Sources */,
 				BF63EF0C21CD7F28001D38C5 /* EmptyTests.swift in Sources */,
+				EE16E1E7223BBCA800F7C1D0 /* GetItemTestCase.swift in Sources */,
 				B34B3C08220381AC00BCBA30 /* String+ExtensionsTests.swift in Sources */,
+				EE16E218223BEFAF00F7C1D0 /* GetItemResponseMessageTestCase.swift in Sources */,
+				EE16E214223BE93800F7C1D0 /* FileAttachment.swift in Sources */,
+				8AB324E222332AF600450253 /* FindFolder.swift in Sources */,
+				EE16E216223BEA0A00F7C1D0 /* Attachments.swift in Sources */,
 				B3BE1D612202C1F600259831 /* DynamicNodeEncodingTest.swift in Sources */,
+				EE16E1EB223BC28D00F7C1D0 /* Message.swift in Sources */,
 				BF9457F721CBB6BC005ACFDE /* DataTests.swift in Sources */,
 				BF9457EE21CBB6BC005ACFDE /* IntTests.swift in Sources */,
 				BF8171F221D3D03E00901EB0 /* SharedBoxTests.swift in Sources */,
 				OBJ_87 /* PlantCatalog.swift in Sources */,
 				BF9457C921CBB516005ACFDE /* KeyedBoxTests.swift in Sources */,
+				8AB324EA22332B3000450253 /* XMLFileTestCase.swift in Sources */,
+				EE16E1EF223BE05C00F7C1D0 /* RecipientAddress.swift in Sources */,
 				OBJ_88 /* PlantTest.swift in Sources */,
 				BF63EF0821CD7AF8001D38C5 /* URLBoxTests.swift in Sources */,
 				BF9457DD21CBB62C005ACFDE /* DateBoxTests.swift in Sources */,
@@ -664,6 +826,7 @@
 				BF9457F421CBB6BC005ACFDE /* UIntTests.swift in Sources */,
 				BF9457F121CBB6BC005ACFDE /* FloatTests.swift in Sources */,
 				BF9457EF21CBB6BC005ACFDE /* NullTests.swift in Sources */,
+				8AB324E422332AF600450253 /* GetFolderTestCase.swift in Sources */,
 				OBJ_90 /* RelationshipsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

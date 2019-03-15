@@ -303,4 +303,24 @@ open class XMLDecoder {
 
         return box
     }
+
+    /// Decodes a box of the given type corresponding to the specified key path from the given XML representation.
+    ///
+    /// - Parameters:
+    ///   - type: The type of the box to decode.
+    ///   - data: The data to decode from.
+    ///   - keyPath: The Key Path to find the desired nested box.
+    ///   - separator: Key Path separator.
+    /// - Returns: A box of the requested type.
+    /// - Throws: `DecodingError.dataCorrupted` if values requested from the payload are corrupted, or if the given data is not valid XML.
+    /// - Throws: An error if any box throws an error during decoding.
+    open func decode<T: Decodable>(
+        _ type: T.Type,
+        from data: Data,
+        keyPath: String,
+        keyPathSeparator separator: String = "."
+        ) throws -> T {
+        userInfo[keyPathUserInfoKey] = keyPath.components(separatedBy: separator)
+        return try decode(KeyPathWrapper<T>.self, from: data).object
+    }
 }

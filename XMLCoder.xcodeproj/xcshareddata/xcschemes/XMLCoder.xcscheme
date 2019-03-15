@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "XMLParsing::XMLParsing"
+               BlueprintIdentifier = "XMLCoder::XMLCoder"
                BuildableName = "XMLCoder.framework"
                BlueprintName = "XMLCoder"
                ReferencedContainer = "container:XMLCoder.xcodeproj">
@@ -26,13 +26,24 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "XMLCoder::XMLCoder"
+            BuildableName = "XMLCoder.framework"
+            BlueprintName = "XMLCoder"
+            ReferencedContainer = "container:XMLCoder.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "XMLParsing::XMLParsingTests"
+               BlueprintIdentifier = "XMLCoder::XMLCoderTests"
                BuildableName = "XMLCoderTests.xctest"
                BlueprintName = "XMLCoderTests"
                ReferencedContainer = "container:XMLCoder.xcodeproj">
@@ -55,7 +66,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "XMLParsing::XMLParsing"
+            BlueprintIdentifier = "XMLCoder::XMLCoder"
             BuildableName = "XMLCoder.framework"
             BlueprintName = "XMLCoder"
             ReferencedContainer = "container:XMLCoder.xcodeproj">

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope
+    xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Header>
+        <h:ServerVersionInfo MajorVersion="15" MinorVersion="1" MajorBuildNumber="1531" MinorBuildNumber="3" Version="V2017_07_11"
+        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    </s:Header>
+    <s:Body
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <m:GetItemResponse
+            xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+            <m:ResponseMessages>
+                <m:GetItemResponseMessage ResponseClass="Success">
+                    <m:ResponseCode>NoError</m:ResponseCode>
+                    <m:Items>
+                        <t:Message>
+                            <t:ItemId Id="AAMkAGMwZDBmNWQ3LTEyN2YtNDNkNi05MT=" ChangeKey="CQAAABYAAAA944RKkdMRT6idiNn6aNVoAAAgw4XV"/>
+                            <t:ParentFolderId Id="AAMkAGMwZDBmNWQ3LTEyN2YtNDNkNi05MT=" ChangeKey="AQAAAA=="/>
+                            <t:ItemClass>IPM.Note</t:ItemClass>
+                            <t:Subject>Скидки до 50%. Скоро!</t:Subject>
+                            <t:Sensitivity>Normal</t:Sensitivity>
+                            <t:Body BodyType="Text">Успейте подготовиться к распродаже!
+                            </t:Body>
+                            <t:Attachments>
+                                <t:FileAttachment>
+                                    <t:AttachmentId Id="AQASAFRhbG92LklAZGlnZGVzLmNvbQBGAAAD7xrIWH1v0kmji6MpvWXqFgcAf6oGqkt7+0WbBVio4/ywTwAAAeGoogAAAH+qBqpLe/tFmwVYqOP8sE8AAACm/P99AAAAAQYABAAAAw=="/>
+                                    <t:Name>ios-patterns-cliff-notes2-2.pdf</t:Name>
+                                    <t:ContentType>application/pdf</t:ContentType>
+                                    <t:ContentId>qweqweqweqwe</t:ContentId>
+                                </t:FileAttachment>
+                                <t:FileAttachment>
+                                    <t:AttachmentId Id="AAASAFRhbG92LklAZGlnZGVzLmNvbQBGAAAAAADvGshYfW/SSaOLoym9ZeoWBwB/qgaqS3v7RZsFWKjj/LBPAAAA4aiiAAB/qgaqS3v7RZsFWKjj/LBPAACm/P99AAABBgAEAAEAAAA="/>
+                                    <t:Name>Документ.doc</t:Name>
+                                    <t:ContentType>application/msword</t:ContentType>
+                                    <t:ContentId>qwerty</t:ContentId>
+                                </t:FileAttachment>
+                                <t:FileAttachment>
+                                    <t:AttachmentId Id="AAASAFRhbG92LklAZGlnZGVzLmNvbQBGAAAAAADvGshYfW/SSaOLoym9ZeoWBwB/qgaqS3v7RZsFWKjj/LBPAAAA4aiiAAB/qgaqS3v7RZsFWKjj/LBPAACm/P99AAABBgAEAAIAAAA="/>
+                                    <t:Name>abcbook.doc</t:Name>
+                                    <t:ContentType>application/msword</t:ContentType>
+                                    <t:ContentId>qqqqqqqq</t:ContentId>
+                                </t:FileAttachment>
+                            </t:Attachments>
+                            <t:DateTimeReceived>2019-03-05T15:10:06Z</t:DateTimeReceived>
+                            <t:Size>56197</t:Size>
+                            <t:Importance>Normal</t:Importance>
+                            <t:IsSubmitted>false</t:IsSubmitted>
+                            <t:IsDraft>false</t:IsDraft>
+                            <t:IsFromMe>false</t:IsFromMe>
+                            <t:IsResend>false</t:IsResend>
+                            <t:IsUnmodified>true</t:IsUnmodified>
+                            <t:InternetMessageHeaders>
+                                <t:InternetMessageHeader HeaderName="Received">from DDSM-MAIL01.digdes.com (172.16.100.67) by DDSM-MAIL01.digdes.com (172.16.100.67) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.1531.3 via Mailbox Transport; Tue, 5 Mar 2019 18:10:06 +0300</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Received">from DDSM-MAIL01.digdes.com (172.16.100.67) by DDSM-MAIL01.digdes.com (172.16.100.67) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.1531.3; Tue, 5 Mar 2019 18:10:05 +0300</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Received">from smtp.digdes.com (172.16.96.56) by DDSM-MAIL01.digdes.com (172.16.100.67) with Microsoft SMTP Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA) id 15.1.1531.3 via Frontend Transport; Tue, 5 Mar 2019 18:10:05 +0300</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Received">from uspmta197126.emsmtp.com (217.175.197.126) by relay2.digdes.com (172.16.96.56) with Microsoft SMTP Server (TLS) id 14.3.123.3; Tue, 5 Mar 2019 18:09:05 +0300</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="DKIM-Signature">v=1; a=rsa-sha256; c=relaxed/relaxed; s=key2; d=e.s7.ru; h=To:Subject:From:MIME-Version:List-Id:X-CSA-Complaints:List-Unsubscribe:Content-Type:Message-ID:Date; i=s7news@e.s7.ru; bh=YvJAni4Y2Xnq1B9bjvAhv8fzW/27eOhTQXV2W5KyuQc=; b=Khk+gpNg5gtrOUcdZGNy0mpASk+12GTpxh9yn3uKUhdGAGi6z5DUc+TTc7V0LyoJO5c3BtZuPnv4   oCZLdnG5K7wfcbTTNWYMZPgXUTKGXbm2ZOVD3L1YTsF1mwjNLvCDlho5RABENAPyY6oNHWH6NLxT   7BdTDK2U+LOV5zUqWu8=</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="DKIM-Signature">v=1; a=rsa-sha256; c=relaxed/relaxed; s=key2; d=emarsys.net; h=To:Subject:From:MIME-Version:List-Id:List-Unsubscribe:Content-Type:Message-ID:Date; bh=YvJAni4Y2Xnq1B9bjvAhv8fzW/27eOhTQXV2W5KyuQc=; b=YDbVpgn6c9roV4UPpVhYfMRqJRhEFv68zCwhxTLmFZrfC5xVbtAlIHCU11ATU6sjXGs0W0lj7Sej   sisTa3NeumkgNBHjHjgYHhkyYngM72IbdVZSUzP+nx9xe8axtVM9DOk97w1vosdRPOK7+ItHLiDU   9JtIScWq5pq6LGuq2U0=</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Subject">Скидки до 50%. Скоро!</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-Mailer">class SMTPMail</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="MIME-Version">1.0</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="List-Id">794131290 &lt;S7 Airlines&gt;</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-EMarSys-Identify">794131290_33956_1237651</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-EMarSys-Environment">suite34</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-Report-Abuse">Please report abuse here: abuse-report@emarsys.com</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-CSA-Complaints">whitelist-complaints@eco.de</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="List-Unsubscribe">&lt;mailto:list-unsubscribe+794131290_33956_1237651_6vyT8DTzJc@emarsys.net&gt;, &lt;https://list-unsubscribe.eservice.emarsys.net/api/unsubscribe/794131290_33956_1237651_6vyT8DTzJc&gt;</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Content-Type">multipart/alternative</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Message-ID">&lt;0.0.7C.891.1D4D363AE127184.0@uspmta197126.emsmtp.com&gt;</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Date">Tue, 5 Mar 2019 15:56:57 +0100</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="Return-Path">suite34@xpressus.emsmtp.com</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Organization-MessageDirectionality">Incoming</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Organization-Network-Message-Id">6d73da51-6498-4111-e8f2-08d6a17ca65a</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Organization-AVStamp-Enterprise">1.0</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Organization-AuthSource">DDSM-EXED02.digdes.com</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Organization-AuthAs">Anonymous</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Transport-EndToEndLatency">00:01:00.7499745</t:InternetMessageHeader>
+                                <t:InternetMessageHeader HeaderName="X-MS-Exchange-Processed-By-BccFoldering">15.01.1531.003</t:InternetMessageHeader>
+                            </t:InternetMessageHeaders>
+                            <t:DateTimeSent>2019-03-05T14:56:57Z</t:DateTimeSent>
+                            <t:DateTimeCreated>2019-03-05T15:10:06Z</t:DateTimeCreated>
+                            <t:ResponseObjects>
+                                <t:ReplyToItem/>
+                                <t:ReplyAllToItem/>
+                                <t:ForwardItem/>
+                            </t:ResponseObjects>
+                            <t:DisplayCc/>
+                            <t:DisplayTo>Talov Igor</t:DisplayTo>
+                            <t:HasAttachments>false</t:HasAttachments>
+                            <t:Culture>ru-RU</t:Culture>
+                            <t:EffectiveRights>
+                                <t:CreateAssociated>false</t:CreateAssociated>
+                                <t:CreateContents>false</t:CreateContents>
+                                <t:CreateHierarchy>false</t:CreateHierarchy>
+                                <t:Delete>true</t:Delete>
+                                <t:Modify>true</t:Modify>
+                                <t:Read>true</t:Read>
+                                <t:ViewPrivateItems>true</t:ViewPrivateItems>
+                            </t:EffectiveRights>
+                            <t:LastModifiedName>S7 Airlines</t:LastModifiedName>
+                            <t:LastModifiedTime>2019-03-05T15:10:06Z</t:LastModifiedTime>
+                            <t:IsAssociated>false</t:IsAssociated>
+                            <t:WebClientReadFormQueryString>https://mail.digdes.com/owa?ItemID=AAMkAGMwZDBmNWQ3LTEyN2YtNDNkNi05MTcxLTM3YzM5YTU3MTk5MgBGAAAAAADvGshYfW%2FSSaOLoym9ZeoWBwB%2FqgaqS3v7RZsFWKjj%2FLBPAAAA4aiiAAA944RKkdMRT6idiNn6aNVoAAAgwgTsAAA%3D&amp;exvsurl=1&amp;viewmodel=ReadMessageItem</t:WebClientReadFormQueryString>
+                            <t:ConversationId Id="AAQkAGMwZDBmNWQ3LTEyN2YtNDNkNi05MTcxLTM3YzM5YTU3MTk5MgAQAL7bL8+dGyNPoLxASFG5m80="/>
+                            <t:UniqueBody BodyType="Text">Успейте подготовиться к распродаже!
+                            </t:UniqueBody>
+                            <t:Sender>
+                                <t:Mailbox>
+                                    <t:Name>S7 Airlines</t:Name>
+                                    <t:EmailAddress>s7news@e.s7.ru</t:EmailAddress>
+                                    <t:RoutingType>SMTP</t:RoutingType>
+                                    <t:MailboxType>OneOff</t:MailboxType>
+                                </t:Mailbox>
+                            </t:Sender>
+                            <t:ToRecipients>
+                                <t:Mailbox>
+                                    <t:Name>Talov Igor</t:Name>
+                                    <t:EmailAddress>Talov.I@digdes.com</t:EmailAddress>
+                                    <t:RoutingType>SMTP</t:RoutingType>
+                                    <t:MailboxType>Mailbox</t:MailboxType>
+                                </t:Mailbox>
+                            </t:ToRecipients>
+                            <t:IsReadReceiptRequested>false</t:IsReadReceiptRequested>
+                            <t:ConversationIndex>AQHU02WEvtsvz50bI0+gvEBIUbmbzQ==</t:ConversationIndex>
+                            <t:ConversationTopic>Скидки до 50%. Скоро!</t:ConversationTopic>
+                            <t:From>
+                                <t:Mailbox>
+                                    <t:Name>S7 Airlines</t:Name>
+                                    <t:EmailAddress>s7news@e.s7.ru</t:EmailAddress>
+                                    <t:RoutingType>SMTP</t:RoutingType>
+                                    <t:MailboxType>OneOff</t:MailboxType>
+                                </t:Mailbox>
+                            </t:From>
+                            <t:InternetMessageId>&lt;0.0.7C.891.1D4D363AE127184.0@uspmta197126.emsmtp.com&gt;</t:InternetMessageId>
+                            <t:IsRead>true</t:IsRead>
+                            <t:ReceivedBy>
+                                <t:Mailbox>
+                                    <t:Name>Talov Igor</t:Name>
+                                    <t:EmailAddress>Talov.I@digdes.com</t:EmailAddress>
+                                    <t:RoutingType>SMTP</t:RoutingType>
+                                    <t:MailboxType>Mailbox</t:MailboxType>
+                                </t:Mailbox>
+                            </t:ReceivedBy>
+                            <t:ReceivedRepresenting>
+                                <t:Mailbox>
+                                    <t:Name>Talov Igor</t:Name>
+                                    <t:EmailAddress>Talov.I@digdes.com</t:EmailAddress>
+                                    <t:RoutingType>SMTP</t:RoutingType>
+                                    <t:MailboxType>Mailbox</t:MailboxType>
+                                </t:Mailbox>
+                            </t:ReceivedRepresenting>
+                        </t:Message>
+                    </m:Items>
+                </m:GetItemResponseMessage>
+            </m:ResponseMessages>
+        </m:GetItemResponse>
+    </s:Body>
+</s:Envelope>
+

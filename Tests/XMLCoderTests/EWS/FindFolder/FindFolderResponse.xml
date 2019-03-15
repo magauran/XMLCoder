@@ -1,0 +1,78 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Header>
+        <h:ServerVersionInfo
+        MajorVersion="14"
+        MinorVersion="0"
+        MajorBuildNumber="639"
+        MinorBuildNumber="20"
+        Version="Exchange2010"
+        xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns="http://schemas.microsoft.com/exchange/services/2006/types"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xm=""
+        lns:xsd="http://www.w3.org/2001/XMLSchema" />
+    </s:Header>
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <m:FindFolderResponse
+            xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages"
+            xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+            <m:ResponseMessages>
+                <m:FindFolderResponseMessage ResponseClass="Success">
+                    <m:ResponseCode>NoError</m:ResponseCode>
+                    <m:RootFolder
+                        IndexedPagingOffset="10"
+                        TotalItemsInView="11"
+                        Include=""
+                        sLastItemInRange="false">
+                        <t:Folders>
+                            <t:SearchFolder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="BwAAABYAAA" />
+                                <t:DisplayName>AllItems</t:DisplayName>
+                            </t:SearchFolder>
+                            <t:SearchFolder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="BwAAABYAAA" />
+                                <t:DisplayName>
+                                    NoArchiveTagSearchFolder8534F96D-4183-41fb-8A05-9B7112AE2100
+                                </t:DisplayName>
+                            </t:SearchFolder>
+                            <t:SearchFolder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="CAAAABYAAA" />
+                                <t:DisplayName>Unread Mail</t:DisplayName>
+                            </t:SearchFolder>
+                            <t:Folder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AQAAABYAAA" />
+                                <t:DisplayName>Freebusy Data</t:DisplayName>
+                            </t:Folder>
+                            <t:Folder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AQAAABYAAA" />
+                                <t:DisplayName>Recoverable Items</t:DisplayName>
+                            </t:Folder>
+                            <t:Folder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AQAAABYAAA" />
+                                <t:DisplayName>Deletions</t:DisplayName>
+                            </t:Folder>
+                            <t:CalendarFolder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AgAAABQAAA" />
+                                <t:DisplayName>Calendar</t:DisplayName>
+                            </t:CalendarFolder>
+                            <t:ContactsFolder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AwAAABYAAA " />
+                                <t:DisplayName>Contacts</t:DisplayName>
+                            </t:ContactsFolder>
+                            <t:Folder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AQAAABYAAA" />
+                                <t:DisplayName>Deleted Items</t:DisplayName>
+                            </t:Folder>
+                            <t:Folder>
+                                <t:FolderId Id="AQMkAGEyYzQ" ChangeKey="AQAAABQAAA" />
+                                <t:DisplayName>Inbox</t:DisplayName>
+                            </t:Folder>
+                        </t:Folders>
+                    </m:RootFolder>
+                </m:FindFolderResponseMessage>
+            </m:ResponseMessages>
+        </m:FindFolderResponse>
+    </s:Body>
+</s:Envelope>
+

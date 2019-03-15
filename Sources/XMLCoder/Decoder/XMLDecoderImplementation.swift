@@ -318,8 +318,7 @@ extension XMLDecoderImplementation {
         } else if type == Decimal.self || type == NSDecimalNumber.self {
             let decimal: Decimal = try unbox(box)
             decoded = decimal as? T
-        } else if
-            type == String.self || type == NSString.self,
+        } else if type == String.self || type == NSString.self,
             let value = (try unbox(box) as String) as? T {
             decoded = value
         } else {
